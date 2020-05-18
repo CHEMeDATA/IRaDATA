@@ -36,4 +36,7 @@ M  END
 List atoms involved in each... 
 see how softwre visualizing vibration do this...
 
+##Please contribute!
+Just [leave a comment](https://github.com/CHEMeDATA/IReDATA/issues/new/choose).
+
 
