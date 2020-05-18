@@ -1,5 +1,5 @@
 # IRaDATA
-A standard to report IR 
+A standard to report IR spectra
 ## General idea
 By analogy to NMReDATA: use a .sdf (data structure format) file. SDF include one (or more - not relevant here) structure in the .mol format. In the [mol 2000](https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/ChemInformatics_(2017)%3A_Chem_4399%2F%2F5399/2.2%3A_Chemical_Representations_on_Computer%3A_Part_II/2.2.2%3A_Anatomy_of_a_MOL_file) format (the most common) the atoms are listed with their coordinates. Follows the list of bonds.
 ## reference to the atoms/bonds
