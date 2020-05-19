@@ -1,9 +1,9 @@
 # IReDATA
-Discussion on a standard to report assignments of IR spectra
+As part of the [CHEMeDATA initiative](https://github.com/CHEMeDATA), here is the starting point for a discussion of a standard to report the assignment of IR spectra.
 ## General idea
-By analogy to NMReDATA: use a .sdf (data structure format) file. SDF include one (or more - not relevant here) structure in the .mol format. In the [mol 2000](https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/ChemInformatics_(2017)%3A_Chem_4399%2F%2F5399/2.2%3A_Chemical_Representations_on_Computer%3A_Part_II/2.2.2%3A_Anatomy_of_a_MOL_file) format (the most common) the atoms are listed with their coordinates. Follows the list of bonds.
+By analogy to NMReDATA, we shall use a .sdf (data structure format) file. The SDF file includes a structure in the .mol format. In the [the most common](https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/ChemInformatics_(2017)%3A_Chem_4399%2F%2F5399/2.2%3A_Chemical_Representations_on_Computer%3A_Part_II/2.2.2%3A_Anatomy_of_a_MOL_file) variant the atoms are listed with their coordinates. Follows the list of bonds.
 ## Reference to the atoms
-For stretch (involving pairs of atoms), the reference to bond number (in the list of bonds) is the most obvious. But this is not easily extendable to bend and out-of-plane vibrations. Refering to atom number is more generalizable. Because of degeneracy (symmetry of two OH of water), presence of multiplet non-distinguished vibrations (alkyl chain), an observed vibration can be attributed to multiple bonds, each in separate [] (*see example*).
+For stretch (involving pairs of atoms), the reference to bond number (in the list of bonds) is the most obvious. But this is not easily extendable to bend and out-of-plane vibrations. Refering to atom index is more generalizable. Because of degeneracy (symmetry of two OH of water), presence of multiple non-distinguished vibrations (alkyl chain), an observed vibration can be attributed to multiple bonds, each in separate [] (*see example*). 
 ## Reference to the atoms
 
 |code|type of vibration|prefix subtype|comments|
@@ -33,6 +33,7 @@ M  END
 1595, bend., [1, 2, 3] ; fist atom in the list is the pivot
 
 ```
+Shall we list atoms only for [local-mode](http://www.fclab2.net/definitions.html) vibrations?
 ## Molecular vibrations
 Shall the format be able to fully describe complex vibrations, or only functional groups?
 For molecular vibration should we list atoms in (2 or more?) blocks moving one relative to the other?
