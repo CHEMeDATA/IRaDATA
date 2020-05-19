@@ -38,7 +38,7 @@ List atoms involved in each...
 see how softwre visualizing vibration do this...
 
 ## Relevant work
-JSmol [visualisation of the vibrations](https://chemapps.stolaf.edu/jmol/jsmol/jsv_mol.htm) obtained by manual assignment of an IR spectrum. The jcamp file with embeded mols and vibration data and more info here.
+JSmol [visualisation of the vibrations](https://chemapps.stolaf.edu/jmol/jsmol/jsv_mol.htm) obtained by manual assignment of an IR spectrum. The [jcamp](data/acetophenone.jdx) file with embeded mols and vibration data and more info [here](https://chemapps.stolaf.edu/jmol/docs/misc/Jmol-JSpecView-specs.pdf).
 
 
 ## Please contribute!
