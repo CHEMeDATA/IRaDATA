@@ -10,7 +10,8 @@ For stretch (involving pairs of atoms), the reference to bond number (in the lis
 |----|-----------------|-------|-------|
 |st.|stretching|sym: symmetric asym: asymetric|(br.) for broad signals (str.) for strong|
 |bend.|bending|sym: symmetric asym: asymetric||
-|oop.|out-of-plane vibration|||
+|rock.|rocking|sym: symmetric asym: asymetric||
+|oop.|out-of-plane vibration wagging/twisting|||
 
 For water...
 ```
