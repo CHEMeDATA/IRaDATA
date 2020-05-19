@@ -37,7 +37,11 @@ M  END
 List atoms involved in each... 
 see how softwre visualizing vibration do this...
 
-##Please contribute!
+## Relevant work
+JSmol [visualisation of the vibrations](https://chemapps.stolaf.edu/jmol/jsmol/jsv_mol.htm) obtained by manual assignment of an IR spectrum. The jcamp file with embeded mols and vibration data and more info here.
+
+
+## Please contribute!
 Just [leave a comment](https://github.com/CHEMeDATA/IReDATA/issues/new/choose).
 
 
