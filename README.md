@@ -1,5 +1,5 @@
 # IReDATA
-As part of the [CHEMeDATA initiative](https://github.com/CHEMeDATA), here is the starting point for a discussion of a standard to report the assignment of IR spectra.
+As part of the [CHEMeDATA initiative](https://github.com/CHEMeDATA), here is the starting point of a proposition of standard to report the assignment of IR spectra.
 ## General idea
 By analogy to NMReDATA, we shall use a .sdf (data structure format) file. The SDF file includes a structure in the .mol format. In the [the most common](https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/ChemInformatics_(2017)%3A_Chem_4399%2F%2F5399/2.2%3A_Chemical_Representations_on_Computer%3A_Part_II/2.2.2%3A_Anatomy_of_a_MOL_file) variant the atoms are listed with their coordinates. Follows the list of bonds.
 ## Reference to the atoms
@@ -33,7 +33,7 @@ M  END
 1595, bend., [1, 2, 3] ; fist atom in the list is the pivot
 
 ```
-Shall we list atoms only for [local-mode](http://www.fclab2.net/definitions.html) vibrations?
+We should probably only list atoms from the [local-mode](http://www.fclab2.net/definitions.html) vibrations.
 ## Molecular vibrations
 Shall the format be able to fully describe complex vibrations, or only functional groups?
 For molecular vibration should we list atoms in (2 or more?) blocks moving one relative to the other?
