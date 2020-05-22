@@ -6,6 +6,7 @@ By analogy to NMReDATA, we shall use a .sdf (data structure format) file. The SD
 For stretch (involving pairs of atoms), the reference to bond number (in the list of bonds) is the most obvious. But this is not easily extendable to bend and out-of-plane vibrations. Refering to atom index is more generalizable. Because of degeneracy (symmetry of two OH of water), presence of multiple non-distinguished vibrations (alkyl chain), an observed vibration can be attributed to multiple bonds, each in separate [] (*see example*). 
 ## Reference to the atoms
 *Preliminary, incomplete and unconsistent...*
+
 |code|type of vibration|prefix subtype|comments|
 |----|-----------------|-------|-------|
 |st.|stretching|sym: symmetric asym: asymetric|(br.) for broad signals (str.) for strong|
