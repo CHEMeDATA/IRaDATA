@@ -44,6 +44,15 @@ Among others, Gaussian can provide vibration [information](http://gaussian.com/f
 ## Relevant work
 JSmol [visualisation of the vibrations](https://chemapps.stolaf.edu/jmol/jsmol/jsv_mol.htm) obtained by manual assignment of an IR spectrum. The [jcamp](data/acetophenone.jdx) file with embeded mols and vibration data and more info [here](https://chemapps.stolaf.edu/jmol/docs/misc/Jmol-JSpecView-specs.pdf).
 
+## Relevant work
+According to  [Chen, Chen, Zhu](http://cs229.stanford.edu/proj2017/final-reports/5244394.pdf) [A discussion of IR](https://webbook.nist.gov/chemistry/quant-ir/) from the [NIST Chemistry Webbook](https://webbook.nist.gov/chemistry/) contains IR spectra for 16k compounds. We found:
+- 40 compounds, various processing and resolution: https://webbook.nist.gov/chemistry/quant-ir/ [example](https://webbook.nist.gov/cgi/cbook.cgi?JCAMP=C71432&Index=7&Type=IR) 
+- 60 compounds, https://webbook.nist.gov/chemistry/silmarils-liquids-n-k/ 
+- 130 compounds: https://webbook.nist.gov/chemistry/silmarils-solids-hrf-drf/ [example](https://webbook.nist.gov/cgi/cbook.cgi?JCAMP=C114078&Index=0&Type=IR)
+(No bulk download)
+
+IR spectra, the 3D spatial data les (SDF) that provide the molecular geometry, and the International Chemical Identier
+les for organic molecules with up to 9 carbons were downloaded using a modied BeautifulSoup script [7].
 
 ## Please contribute!
 Just [leave a comment](https://github.com/CHEMeDATA/IReDATA/issues/new/choose).
