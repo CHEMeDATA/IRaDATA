@@ -30,8 +30,8 @@ M  END
 ... a pre-proposition of sdf tag for the assigment of wibration of water would be:
 ```
 >  <IReDATA>
-3657, (br) sym st., [1, 2], [2, 3]
-3755, asym st., [1, 2], [2, 3]
+3657, (br) sym st., [1, 2], [1, 3]
+3755, asym st., [1, 2], [1, 3]
 1595, bend., [1, 2, 3] ; fist atom in the list is the pivot
 
 ```
