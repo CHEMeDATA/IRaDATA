@@ -51,9 +51,6 @@ According to  [Chen, Chen, Zhu](http://cs229.stanford.edu/proj2017/final-reports
 - 130 compounds: https://webbook.nist.gov/chemistry/silmarils-solids-hrf-drf/ [example](https://webbook.nist.gov/cgi/cbook.cgi?JCAMP=C114078&Index=0&Type=IR)
 (No bulk download)
 
-IR spectra, the 3D spatial data les (SDF) that provide the molecular geometry, and the International Chemical Identier
-les for organic molecules with up to 9 carbons were downloaded using a modied BeautifulSoup script [7].
-
 ## Please contribute!
 Just [leave a comment](https://github.com/CHEMeDATA/IReDATA/issues/new/choose).
 
