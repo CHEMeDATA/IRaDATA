@@ -27,7 +27,7 @@ APtclcactv05172014203D 0   0.00000     0.00000
   1  3  1  0  0  0  0
 M  END
 ```
-... a pre-proposition of sdf tag for the assigment of wibration of water would be:
+... a pre-proposition of sdf tag for the assigment of vibration of water would be:
 ```
 >  <IReDATA>
 3657, (br) sym st., [1, 2], [1, 3]
