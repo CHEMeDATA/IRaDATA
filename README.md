@@ -42,6 +42,7 @@ M  END
 
 ```
 We should probably only list atoms from the [local-mode](http://www.fclab2.net/definitions.html) vibrations.
+
 Important note: We are considering the XML*ification* of the content of eDATA.
 ## Molecular vibrations
 Shall the format be able to fully describe complex vibrations, or only functional groups?
